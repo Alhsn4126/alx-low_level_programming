@@ -2,20 +2,18 @@
 /**
  * main - Entry point
  *
- * description: print all single digit numbers
+ * description: print numbers of base 10 using putchar
  *
  * Return: Always 0 (success)
 */
 int main(void)
 {
-	int digit = 0;
+	int n;
 
-	while (digit <= 9)
+	for (n = 0; n <= 9; n++)
 	{
-		printf("%i", digit);
-		digit++;
+		putchar(n + 48);
 	}
-	printf("\n");
-
+	putchar('\n');
 	return (0);
 }
