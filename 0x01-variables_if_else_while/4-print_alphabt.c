@@ -11,6 +11,8 @@ int main(void)
 {
 	char ch - 'a';
 
+	/*prints a*/
+
 	while (ch <= 'z')
 	{
 		if (ch == 'e' || ch == 'q')
